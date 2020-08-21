@@ -1,14 +1,41 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script type="text/javascript" src="js/index.js" defer></script>
-    <link type="text/css" src="style.css"/>
-    <title>Todo's</title>
-</head>
-<body>
+    <link href="css/style.css" rel="stylesheet" />
 
-    
-</body>
+    <title>Todo's</title>
+  </head>
+  <body>
+    <header class="header-todo">
+      <h1>Todo list</h1>
+    </header>
+    <div>
+        <form>
+        <input type="text" onchange="">
+        <select>
+            <option>monday</option>
+            <option>tuesday</option>
+            <option>wednesday</option>
+            <option>thursday</option>
+            <option>friday</option>
+            <option>saturday</option>
+            <option>sunday</option>
+        </select>
+        <button>create todo</button>
+    </form>
+    </div>
+
+    <main class="container-main">
+      <div id="monday">monday</div>
+      <div id="tuesday">tuesday</div>
+      <div id="wednesday">wednesday</div>
+      <div id="thursday">thursday</div>
+      <div id="friday">friday</div>
+      <div id="saturday">saturday</div>
+      <div id="sunday">sunday</div>
+    </main>
+  </body>
 </html>
